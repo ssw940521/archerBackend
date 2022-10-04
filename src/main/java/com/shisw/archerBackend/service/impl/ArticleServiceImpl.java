@@ -19,22 +19,24 @@ import java.util.List;
  * @date 2022年08月21日 23:29
  */
 @Service
-public class ArticleServiceImpl extends ServiceImpl<ArticleInfoMapper,ArticleInfo> implements ArticleService {
+@SuppressWarnings("unused")
+public class ArticleServiceImpl extends ServiceImpl<ArticleInfoMapper, ArticleInfo> implements ArticleService {
 
     @Autowired
+    @SuppressWarnings("unused")
     private ArticleInfoMapper articleInfoMapper;
 
     @Override
-    public ArticleData getArticleById(Integer id){
+    public ArticleData getArticleById(Integer id) {
         ArticleInfo articleInfo = articleInfoMapper.selectById(id);
         return new ArticleData(articleInfo);
     }
 
     @Override
-    public List<ArticleData> getArticleList(int currentPage,int totalPage){
+    public List<ArticleData> getArticleList(int currentPage, int totalPage) {
         List<ArticleData> articleDataList = new ArrayList<>();
-        Page<ArticleInfo> articleDataPage = new Page<>(currentPage,totalPage);
-        IPage<ArticleInfo> result = articleInfoMapper.selectPage(articleDataPage,null);
+        Page<ArticleInfo> articleDataPage = new Page<>(currentPage, totalPage);
+        IPage<ArticleInfo> result = articleInfoMapper.selectPage(articleDataPage, null);
         result.getRecords().forEach(articleInfo -> {
             ArticleData articleData = new ArticleData(articleInfo);
             articleDataList.add(articleData);
@@ -43,17 +45,19 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleInfoMapper,ArticleInf
     }
 
     @Override
-    public String addArticle(ArticleData articleData){
-        if(articleData == null){
+    public String addArticle(ArticleData articleData) {
+        if (articleData == null) {
             return ResponseConst.REQ_ERROR;
         }
         ArticleInfo articleInfo = new ArticleInfo(articleData);
         int result = articleInfoMapper.insert(articleInfo);
-        if(result > 0){
-          return ResponseConst.SUCCESS;
+        if (result > 0) {
+            return ResponseConst.SUCCESS;
         } else {
             return ResponseConst.SYS_ERROR;
         }
     }
+
+
 
 }

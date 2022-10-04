@@ -1,7 +1,8 @@
 package com.shisw.archerBackend.controller;
 
 import com.shisw.archerBackend.dto.ArticleData;
-import com.shisw.archerBackend.entity.ArticleInfo;
+import com.shisw.archerBackend.dto.ClassTag;
+import com.shisw.archerBackend.service.ArticleClassService;
 import com.shisw.archerBackend.service.ArticleService;
 import com.shisw.archerBackend.vo.ArticleSearchVo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,23 +16,37 @@ import java.util.List;
  */
 @RequestMapping("/article")
 @RestController
+@SuppressWarnings("unused")
 public class ArticleController {
 
     @Autowired
+    @SuppressWarnings(value = "unused")
     private ArticleService articleService;
 
+    @Autowired
+    @SuppressWarnings(value = "unused")
+    private ArticleClassService articleClassService;
+
     @GetMapping(value = "/getArticleById/{id}")
+    @SuppressWarnings("unused")
     public ArticleData getArticleById(@PathVariable("id") Integer id){
           return articleService.getArticleById(id);
     }
 
-    @GetMapping(value = "/getArticleList")
-    public  List<ArticleData> getArticleList(@RequestBody ArticleSearchVo vo){
+    @PostMapping(value = "/getArticleList",consumes = "application/json;charset=utf-8")
+    @SuppressWarnings("unused")
+    public List<ArticleData> getArticleList(@RequestBody ArticleSearchVo vo){
          return articleService.getArticleList(vo.getCurrentPage(),vo.getTotalPage());
     }
 
     @PostMapping(value = "/addArticle")
+    @SuppressWarnings("unused")
     public String addArticle(@RequestBody ArticleData articleData){
        return articleService.addArticle(articleData);
+    }
+
+    @GetMapping(value = "/getArticleClass")
+    public List<ClassTag> getArticleClassTag(){
+       return articleClassService.getAllArticleClass();
     }
 }

@@ -9,7 +9,8 @@ import lombok.Data;
 @Data
 public class ArticleSearchVo {
 
-    private int currentPage;
 
-    private int totalPage;
+    private Integer currentPage;
+
+    private Integer totalPage;
 }
