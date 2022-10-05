@@ -12,7 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @author: shisw
@@ -58,6 +61,18 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleInfoMapper, ArticleIn
         }
     }
 
+    @Override
+    public Map<String, List<ArticleInfo>> getArticleIndexTree() {
+        List<ArticleInfo> allArticleInfo = articleInfoMapper.getArticleTagInfo();
+        Map<String,List<ArticleInfo>> articleInfoMap = allArticleInfo.stream().collect(Collectors.groupingBy(ArticleInfo::getTag));
+        Map<String,List<ArticleInfo>> childKeyMap = new HashMap<>();
+        for(Map.Entry<String,List<ArticleInfo>> entry : articleInfoMap.entrySet()){
+           String[] tags = entry.getKey().split("\\|");
+           String lastTag = tags[tags.length-1];
+           childKeyMap.put(lastTag,entry.getValue());
+        }
+        return childKeyMap;
+    }
 
 
 }

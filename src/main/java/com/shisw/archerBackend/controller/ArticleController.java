@@ -2,6 +2,7 @@ package com.shisw.archerBackend.controller;
 
 import com.shisw.archerBackend.dto.ArticleData;
 import com.shisw.archerBackend.dto.ClassTag;
+import com.shisw.archerBackend.entity.ArticleInfo;
 import com.shisw.archerBackend.service.ArticleClassService;
 import com.shisw.archerBackend.service.ArticleService;
 import com.shisw.archerBackend.vo.ArticleSearchVo;
@@ -9,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author: shisw
@@ -48,5 +50,9 @@ public class ArticleController {
     @GetMapping(value = "/getArticleClass")
     public List<ClassTag> getArticleClassTag(){
        return articleClassService.getAllArticleClass();
+    }
+    @GetMapping(value = "/getArticleIndexTree")
+    public Map<String,List<ArticleInfo>> getArticleIndexTree(){
+        return articleService.getArticleIndexTree();
     }
 }
