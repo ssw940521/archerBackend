@@ -32,7 +32,7 @@ public class ArticleInfo {
 
     public ArticleInfo(ArticleData articleData){
         this.title = articleData.getTitle();
-        this.author = articleData.getTitle();
+        this.author = articleData.getAuthor();
         this.tag = articleData.getTag();
         this.content = articleData.getContent();
         this.isOriginal = articleData.getIsOriginal();
