@@ -32,10 +32,10 @@
           <mxGeometry x="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GbW4LYhHCxAWFrPd17BB-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="780" width="370" height="60" as="geometry" />
+          <mxGeometry x="210" y="780" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GbW4LYhHCxAWFrPd17BB-11" value="技能条，5个格子" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="175" y="795" width="95" height="30" as="geometry" />
+          <mxGeometry x="347.5" y="795" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
