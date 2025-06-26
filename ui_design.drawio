@@ -50,15 +50,30 @@
           <mxGeometry x="-50" y="780" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GbW4LYhHCxAWFrPd17BB-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="LeFxqRsWZW-WV--C6w6B-7" vertex="1">
-          <mxGeometry width="370" height="60" as="geometry" />
+          <mxGeometry x="-10" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YEtvAxV50EpJcjjE0ExS-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="LeFxqRsWZW-WV--C6w6B-7">
+          <mxGeometry x="60" y="5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YEtvAxV50EpJcjjE0ExS-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="LeFxqRsWZW-WV--C6w6B-7">
+          <mxGeometry x="120" y="5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GbW4LYhHCxAWFrPd17BB-11" value="技能条，5个格子" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LeFxqRsWZW-WV--C6w6B-7" vertex="1">
-          <mxGeometry x="137.5" y="15" width="95" height="30" as="geometry" />
+          <mxGeometry x="102.5" y="15" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YEtvAxV50EpJcjjE0ExS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="LeFxqRsWZW-WV--C6w6B-7">
+          <mxGeometry y="5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YEtvAxV50EpJcjjE0ExS-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="LeFxqRsWZW-WV--C6w6B-7">
+          <mxGeometry x="180" y="5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YEtvAxV50EpJcjjE0ExS-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="LeFxqRsWZW-WV--C6w6B-7">
+          <mxGeometry x="240" y="5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LeFxqRsWZW-WV--C6w6B-8" value="任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="780" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FrKwzGG4L7EVtG6YQi74-1" value="地图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="FrKwzGG4L7EVtG6YQi74-1" value="地图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="760" y="780" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
