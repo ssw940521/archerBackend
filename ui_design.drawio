@@ -32,16 +32,16 @@
           <mxGeometry x="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LeFxqRsWZW-WV--C6w6B-1" value="人物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="480" y="780" width="60" height="60" as="geometry" />
+          <mxGeometry x="410" y="780" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LeFxqRsWZW-WV--C6w6B-2" value="背包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="550" y="780" width="60" height="60" as="geometry" />
+          <mxGeometry x="480" y="780" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LeFxqRsWZW-WV--C6w6B-3" value="技能" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="690" y="780" width="60" height="60" as="geometry" />
+          <mxGeometry x="620" y="780" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LeFxqRsWZW-WV--C6w6B-4" value="选项" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="827" y="780" width="60" height="60" as="geometry" />
+          <mxGeometry x="830" y="780" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LeFxqRsWZW-WV--C6w6B-6" value="人物大小&lt;div&gt;参照&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="490" width="85" height="110" as="geometry" />
@@ -71,9 +71,12 @@
           <mxGeometry x="240" y="5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LeFxqRsWZW-WV--C6w6B-8" value="任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="620" y="780" width="60" height="60" as="geometry" />
+          <mxGeometry x="550" y="780" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FrKwzGG4L7EVtG6YQi74-1" value="地图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="690" y="780" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YEtvAxV50EpJcjjE0ExS-7" value="见闻" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="760" y="780" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
