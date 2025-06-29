@@ -14,13 +14,16 @@
           <mxGeometry x="720" y="220" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YhxZOhW0D_fjrTyIK-lM-2" value="血量：0/0&lt;div&gt;蓝量：0/0&lt;/div&gt;&lt;div&gt;攻击力：1&lt;/div&gt;&lt;div&gt;防御力：1&lt;/div&gt;&lt;div&gt;魔法攻击力：&lt;/div&gt;&lt;div&gt;魔抗：&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
-          <mxGeometry x="720" y="330" width="110" height="100" as="geometry" />
+          <mxGeometry x="840" y="330" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YhxZOhW0D_fjrTyIK-lM-7" value="能力：" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="YhxZOhW0D_fjrTyIK-lM-7" value="神器收集：黑龙角，圣剑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="720" y="440" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cvERct0VnnuNf-2LxuTa-2" value="角色形象图片" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
-          <mxGeometry x="840" y="330" width="110" height="100" as="geometry" />
+          <mxGeometry x="720" y="330" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cvERct0VnnuNf-2LxuTa-10" value="能力：闪现，居合斩" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="720" y="500" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
