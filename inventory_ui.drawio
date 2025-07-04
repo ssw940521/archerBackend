@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="wrCyiq9yKy8BV54rm3GR">
-    <mxGraphModel dx="1241" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1029" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,16 +14,16 @@
           <mxGeometry x="681" y="370" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XtQHe_jJkyNiMRD9y-V6-35" value="武器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="735" y="370" width="55" height="40" as="geometry" />
+          <mxGeometry x="737" y="370" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XtQHe_jJkyNiMRD9y-V6-36" value="防具" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="790" y="370" width="55" height="40" as="geometry" />
+          <mxGeometry x="793" y="370" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XtQHe_jJkyNiMRD9y-V6-37" value="任务道具" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="370" width="60" height="40" as="geometry" />
+          <mxGeometry x="905" y="370" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XtQHe_jJkyNiMRD9y-V6-3" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=none;rounded=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="680" y="420" width="280" height="330" as="geometry" />
+          <mxGeometry x="690" y="420" width="280" height="330" as="geometry" />
         </mxCell>
         <mxCell id="XtQHe_jJkyNiMRD9y-V6-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XtQHe_jJkyNiMRD9y-V6-3" vertex="1">
           <mxGeometry width="280" height="41" as="geometry" />
@@ -290,7 +290,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XtQHe_jJkyNiMRD9y-V6-50" value="素材" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="845" y="370" width="55" height="40" as="geometry" />
+          <mxGeometry x="849" y="370" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XtQHe_jJkyNiMRD9y-V6-66" value="消耗品提示" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="300" width="80" height="30" as="geometry" />
@@ -314,16 +314,22 @@
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XtQHe_jJkyNiMRD9y-V6-72" value="名称" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="960" y="420" width="25" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="XtQHe_jJkyNiMRD9y-V6-73" value="获取时间" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="960" y="481" width="25" height="60" as="geometry" />
+          <mxGeometry x="664" y="481" width="25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2xsnZAV5AUe18enBX9PR-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="2xsnZAV5AUe18enBX9PR-2" value="8x6" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2xsnZAV5AUe18enBX9PR-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="664" y="420" width="25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XtQHe_jJkyNiMRD9y-V6-72" value="名称" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="2xsnZAV5AUe18enBX9PR-3" vertex="1">
+          <mxGeometry width="25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xsnZAV5AUe18enBX9PR-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="2xsnZAV5AUe18enBX9PR-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980.0000000000001" y="462.7" as="sourcePoint" />
-            <mxPoint x="980.0000000000001" y="437.3" as="targetPoint" />
+            <mxPoint x="19.000000000000114" y="42.69999999999999" as="sourcePoint" />
+            <mxPoint x="19.000000000000114" y="17.30000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
