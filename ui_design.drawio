@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="7vH5vC6cQCNAFp6cAhGH">
-    <mxGraphModel dx="2627" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2627" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,17 +31,8 @@
         <mxCell id="GbW4LYhHCxAWFrPd17BB-7" value="蓝条" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="GbW4LYhHCxAWFrPd17BB-9" vertex="1">
           <mxGeometry x="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeFxqRsWZW-WV--C6w6B-1" value="人物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="410" y="780" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LeFxqRsWZW-WV--C6w6B-2" value="背包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="480" y="780" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LeFxqRsWZW-WV--C6w6B-3" value="技能" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="620" y="780" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LeFxqRsWZW-WV--C6w6B-4" value="选项" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="830" y="780" width="60" height="60" as="geometry" />
+        <mxCell id="LeFxqRsWZW-WV--C6w6B-1" value="面板" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="827" y="790" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LeFxqRsWZW-WV--C6w6B-6" value="人物大小&lt;div&gt;参照&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="365" y="490" width="85" height="110" as="geometry" />
@@ -70,14 +61,8 @@
         <mxCell id="YEtvAxV50EpJcjjE0ExS-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="LeFxqRsWZW-WV--C6w6B-7" vertex="1">
           <mxGeometry x="240" y="5" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LeFxqRsWZW-WV--C6w6B-8" value="任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="780" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FrKwzGG4L7EVtG6YQi74-1" value="地图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="690" y="780" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YEtvAxV50EpJcjjE0ExS-7" value="见闻" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="760" y="780" width="60" height="60" as="geometry" />
+        <mxCell id="tZ2XyZjL5lA_l6-Axlm9-1" value="面板包含了角色、背包、技能等面板" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="770" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
