@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="INpxyaxJs5-nK2j82GfY">
     <mxGraphModel dx="1800" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,22 +8,19 @@
           <mxGeometry x="330" y="120" width="960" height="540" as="geometry" />
         </mxCell>
         <mxCell id="b-Wlq2eOZtSJIpx6lz2Y-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="700" y="200" width="270" height="370" as="geometry" />
+          <mxGeometry x="480" y="200" width="490" height="370" as="geometry" />
         </mxCell>
         <mxCell id="YhxZOhW0D_fjrTyIK-lM-1" value="名字：lance&lt;div&gt;生日：2025-01-06&lt;br&gt;&lt;div&gt;称号：妖精的信使&lt;/div&gt;&lt;div&gt;职业等级：56（法师6、战士21、锻造师3，草药师1，附魔师4，盗贼9，厨师1，占卜师11）&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="720" y="220" width="230" height="100" as="geometry" />
+          <mxGeometry x="500" y="210" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="YhxZOhW0D_fjrTyIK-lM-2" value="血量：0/0&lt;div&gt;蓝量：0/0&lt;/div&gt;&lt;div&gt;攻击力：1&lt;/div&gt;&lt;div&gt;防御力：1&lt;/div&gt;&lt;div&gt;魔法攻击力：1&lt;/div&gt;&lt;div&gt;魔抗：1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
-          <mxGeometry x="840" y="330" width="110" height="100" as="geometry" />
+        <mxCell id="YhxZOhW0D_fjrTyIK-lM-2" value="&lt;div style=&quot;&quot;&gt;基本属性：&lt;/div&gt;血量：0/0&lt;div&gt;蓝量：0/0&lt;/div&gt;&lt;div&gt;攻击力：1&lt;/div&gt;&lt;div&gt;防御力：1&lt;/div&gt;&lt;div&gt;魔法攻击力：1&lt;/div&gt;&lt;div&gt;魔抗：1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="720" y="330" width="230" height="225" as="geometry" />
         </mxCell>
-        <mxCell id="YhxZOhW0D_fjrTyIK-lM-7" value="神器收集：黑龙角，圣剑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="720" y="440" width="230" height="50" as="geometry" />
+        <mxCell id="cvERct0VnnuNf-2LxuTa-2" value="角色形象图片" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="500" y="320" width="190" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="cvERct0VnnuNf-2LxuTa-2" value="角色形象图片" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
-          <mxGeometry x="720" y="330" width="110" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="cvERct0VnnuNf-2LxuTa-10" value="能力：闪现，居合斩" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="720" y="500" width="230" height="50" as="geometry" />
+        <mxCell id="REethpkdlkgfoPzkLqkq-1" value="职业等级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="230" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
